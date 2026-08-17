@@ -1,0 +1,21 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [
+          "68AV2F63V4.com.matthewglynn.comingup"
+        ],
+        "components": [
+          {
+            "/": "/calindex/event/",
+            "comment": "Open privacy-preserving Calindex event cards."
+          },
+          {
+            "/": "/calindex/event/*",
+            "comment": "Open future Calindex event-card routes."
+          }
+        ]
+      }
+    ]
+  }
+}
