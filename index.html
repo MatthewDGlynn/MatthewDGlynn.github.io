@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Private, on-device event sharing for Calindex.">
+  <meta name="theme-color" content="#e6f5eb">
+  <title>Calindex</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", sans-serif;
+    }
+    * { box-sizing: border-box; }
+    body {
+      min-height: 100vh;
+      margin: 0;
+      display: grid;
+      place-items: center;
+      padding: 28px;
+      color: #183528;
+      background: radial-gradient(circle at top, #f8fffa 0, #e6f5eb 46%, #d7eadf 100%);
+    }
+    main {
+      width: min(100%, 520px);
+      padding: 44px 32px;
+      text-align: center;
+      border: 1px solid rgba(44, 98, 70, .14);
+      border-radius: 30px;
+      background: rgba(255, 255, 255, .78);
+      box-shadow: 0 24px 70px rgba(24, 74, 49, .14);
+      backdrop-filter: blur(18px);
+    }
+    img { width: 116px; height: 116px; }
+    h1 { margin: 22px 0 10px; font-size: 42px; letter-spacing: -1.6px; }
+    p { margin: 0; font-size: 18px; line-height: 1.55; color: #547062; }
+    a { color: #286b49; font-weight: 700; }
+    @media (prefers-color-scheme: dark) {
+      body { color: #eefaf2; background: radial-gradient(circle at top, #173729 0, #10271d 55%, #0c1c15 100%); }
+      main { border-color: rgba(190, 239, 208, .14); background: rgba(19, 48, 35, .78); }
+      p { color: #b8d0c0; }
+      a { color: #9be0b5; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <img src="/calindex/assets/calindex-app-icon.png" alt="Calindex app icon">
+    <h1>Calindex</h1>
+    <p>Private event sharing and a calm, exact-day agenda for Apple Calendar and Reminders.</p>
+    <p style="margin-top: 22px"><a href="https://apps.apple.com/app/id6789342118">View Calindex on the App Store</a></p>
+  </main>
+</body>
+</html>
